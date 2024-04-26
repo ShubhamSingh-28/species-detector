@@ -38,6 +38,6 @@ export const renderPredictions = (predictions, ctx) => {
 };
 
 const playAudio = throttle(() => {
-  const audio = new Audio("/public-pols-aagyi-pols.mp3");
+  const audio = new Audio("/public_pols-aagyi-pols.mp3");
   audio.play();
 }, 2000);
